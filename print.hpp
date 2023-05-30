@@ -116,7 +116,7 @@
 #define getChr(name, i) ((_W_MIN(i, _MAX_W_COUNT)) < sizeof(name)/sizeof(*name) ? name[i]: '\0')
 
 // Usage: _W("your text")
-// This will result in a 'pointer' to the _Word class
+// This will result in a 'pointer' to the _Word function
 
 template<char ... _Chars>
 std::ostream& _Word(std::ostream& out) {
